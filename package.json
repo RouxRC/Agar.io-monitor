@@ -1,0 +1,16 @@
+{
+  "name": "agario-monitor",
+  "version": "0.0.0",
+  "description": "Bot factory for agar.io to provide a monitoring tool",
+  "main": "list.js",
+  "dependencies": {
+    "agario-client": "~0.0.11",
+    "colors": "~1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RouxRC <b.ooghe@gmail.com>",
+  "license": "GPL v3"
+}
