@@ -78,7 +78,7 @@ Bot.prototype = {
     start: function(spectate) {
         this.spectate = !!(spectate) || this.spectate;
         console.log('Connecting ' + (spectate ? "as spectator ": "") + 'to ' + this.server);
-        this.client.connect(this.server);
+        this.client.connect(this.server, "FPbYWYYD");
     },
     reconnect: function() {
         this.client.disconnect();
